@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.deals-banner-content {
+    width: 570px;
+    background: red;
+    padding: 52px;
+}
+
+.deals-area {
+    width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    color: #5A5A5D;
+}
+
+.deals-banner-content {
+    width: 570px;
+    background: #fff;
+    opacity: 79%;
+    padding: 53px;
+    position: absolute;
+    top: 49px;
+    right: 60px;
+    border-radius: 10px;
+}
+
+.deals-box-social {
+    margin-bottom: 25px;
+}
+
+.deals-box-social a {
+    color: #FF5400;
+}
+
+.deals-box-social span {
+    margin-left: 6px;
+    margin-right: 13px;
+}
+
+.box-deals-description h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+p.box-deals-paragraph {
+    margin-bottom: 23px;
+    line-height: 27px;
+}
+
+.box-deals-btn a {
+    padding: 20px 40px;
+    background: #FF5400;
+    border-radius: 8px;
+    text-decoration: NONE;
+    color: #FFF;
+    display: inline-block;
+    font-size: 18px;
+}
+
+span.box-deals-price {
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #FF5400;
+}
+
+.deals-area.middle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.deals-banner-content.middle {
+    left: 70px;
+}
+
+.deals-banner-content.bottom {
+    right: 60px;
+
+}
+
+.box-deals-btn.deals-area a {
+    padding: 11px 20px;
+    font-size: 15px;
+}
+
+.box-deals-btn.deals-area {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Simple Area Start*/
+.simple-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.simple-left {
+    position: relative;
+    padding-right: 30px;
+}
+
+h1.simple-title {
+    margin-bottom: 14px;
+    line-height: 45px;
+}
+
+p.simple-paragraph {
+    color: #5A5A5D;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+
+
+.simple-left-content a {
+    text-decoration: none;
+    color: #131318;
+    line-height: 26px;
+}
+
+.simple-btn a {
+    text-decoration: none;
+    background-color: #FF5400;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.simple-btn {
+    margin-top: 40px;
+}
+
+p.simple-content {
+    position: absolute;
+    top: 46%;
+    left: 42%;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+
+/*Simple Area End*/
+
+
+/*Letter Area Start*/
+.news-letter-area {
+    margin-bottom: 60px;
+}
+
+.letter-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.letter-left {
+    padding: 39px;
+    border: 2px solid #FF5400;
+    margin-right: 32px;
+    border-radius: 10px;
+
+}
+
+.letter-form input {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 21px;
+}
+
+button.letter-btn {
+    background: #FF5400;
+    color: #fff;
+    padding: 15px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5PX;
+}
+
+.letter-content {
+    text-align: center;
+    position: absolute;
+    bottom: 52px;
+    background: #FF5400;
+    padding-left: 60px;
+    padding-right: 59px;
+    color: #fff;
+    right: 29px;
+    border-radius: 15px;
+}
+
+.letter-right {
+    position: relative;
+}
+
+p.save {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.letter-content {
+    rotate: -21deg;
+}
+
+/*Letter Area End*/
+
+/*Footer Area Start*/
+.footer-area {
+    background-color: #f3f3f3;
+    padding-bottom: 80px;
+    padding-top: 70px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title .logo {
+    margin-right: 10px;
+}
+
+.footer-title h2 span {
+    color: #FF5400;
+}
+
+p.footer-description {
+    text-align: center;
+    padding-left: 205px;
+    padding-right: 205px;
+    padding-bottom: 35px;
+    line-height: 25px;
+    color: #5A5A5D;
+}
+
+.footer-social {
+    text-align: center;
+    color: #131318;
+}
+
+.footer-social a {
+    color: #131318;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.reserve-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.reserve-text p {
+    /* text-align: center; */
+    /* padding: 0 20px; */
+    display: inline-block;
+    color: #5A5A5D;
+    /* left: 0; */
+    /* right: 0; */
+    /* text-align: center; */
+}
+
+/*Footer Area End/*
